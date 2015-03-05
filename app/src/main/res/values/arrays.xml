@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="up_bird" >
+        <item>finedayup_1</item>
+        <item>finedayup_2</item>
+        <item>finedayup_3</item>
+        <item>finedayup_4</item>
+        <item>finedayup_5</item>
+        <item>finedayup_6</item>
+        <item>finedayup_7</item>
+        <item>finedayup_8</item>
+    </string-array>
+    <string-array name="down_bird" >
+        <item>finedaydown_1</item>
+        <item>finedaydown_2</item>
+        <item>finedaydown_3</item>
+        <item>finedaydown_4</item>
+        <item>finedaydown_5</item>
+        <item>finedaydown_6</item>
+        <item>finedaydown_7</item>
+        <item>finedaydown_8</item>
+    </string-array>
+</resources>
