@@ -6,7 +6,10 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-
+/**
+ * Created by wujiajun on 2015/3/3.
+ * @author 928320442@qq.com
+ */
 public class MainActivity extends Activity {
 
     @Override

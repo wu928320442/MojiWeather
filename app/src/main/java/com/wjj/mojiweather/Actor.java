@@ -6,6 +6,7 @@ import android.graphics.Matrix;
 
 /**
  * Created by wujiajun on 2015/2/16.
+ * @author 928320442@qq.com
  */
 public abstract class Actor {
 

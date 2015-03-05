@@ -10,6 +10,7 @@ import android.util.Log;
 
 /**
  * Created by wujiajun on 2015/3/5.
+ * @author 928320442@qq.com
  */
 public class SunShine extends Actor {
 

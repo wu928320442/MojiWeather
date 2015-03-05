@@ -8,6 +8,7 @@ import android.view.SurfaceView;
 
 /**
  * Created by wujiajun on 2015/2/16.
+ * @author 928320442@qq.com
  */
 public class SceneSurfaceView extends SurfaceView implements SurfaceHolder.Callback {
 

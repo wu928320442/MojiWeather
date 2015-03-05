@@ -12,6 +12,7 @@ import java.util.List;
 
 /**
  * Created by wujiajun on 2015/2/16.
+ * @author 928320442@qq.com
  */
 public class BirdDown extends Actor {
     private static final int[] imgs = new int[]{R.drawable.finedaydown_1, R.drawable.finedaydown_2, R.drawable.finedaydown_3, R.drawable.finedaydown_4, R.drawable.finedaydown_5, R.drawable.finedaydown_6, R.drawable.finedaydown_7, R.drawable.finedaydown_8};

@@ -10,6 +10,7 @@ import android.util.Log;
 
 /**
  * Created by wujiajun on 2015/3/3.
+ * @author 928320442@qq.com
  */
 public class CloudLeft extends Actor {
 

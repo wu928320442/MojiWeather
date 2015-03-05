@@ -14,6 +14,7 @@ import java.util.List;
 
 /**
  * Created by wujiajun on 2015/2/16.
+ * @author 928320442@qq.com
  */
 public class BirdUp extends Actor {
     private static final int[] imgs = new int[]{R.drawable.finedayup_1, R.drawable.finedayup_2, R.drawable.finedayup_3, R.drawable.finedayup_4, R.drawable.finedayup_5, R.drawable.finedayup_6, R.drawable.finedayup_7, R.drawable.finedayup_8};
