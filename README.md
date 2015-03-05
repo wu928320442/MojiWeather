@@ -1,4 +1,5 @@
 # MojiWeather
+https://github.com/wu928320442/MojiWeather/blob/master/screenshot/device-2015-03-05-144630.png
 高仿墨迹天气
 只有一个场景 白天晴天
 感兴趣的可以添加其他场景，就是多写一些对象的AI的事情
