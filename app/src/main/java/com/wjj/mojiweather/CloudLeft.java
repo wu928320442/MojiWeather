@@ -20,11 +20,13 @@ public class CloudLeft extends Actor {
     Bitmap frame;
     RectF box;
     RectF targetBox;
+    Paint paint = new Paint();
 
     protected CloudLeft(Context context) {
         super(context);
         box = new RectF();
         targetBox = new RectF();
+        paint.setAntiAlias(true);
     }
 
     @Override
@@ -52,6 +54,6 @@ public class CloudLeft extends Actor {
             matrix.postTranslate(-targetBox.right, 0);
         }
         //绘制
-        canvas.drawBitmap(frame, matrix, null);
+        canvas.drawBitmap(frame, matrix, paint);
     }
 }

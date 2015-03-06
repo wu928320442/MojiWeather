@@ -25,12 +25,14 @@ public class BirdDown extends Actor {
     RectF targetBox;
     int curFrameIndex;
     long lastTime;
+    Paint paint = new Paint();
 
     protected BirdDown(Context context) {
         super(context);
         frames = new ArrayList<Bitmap>();
         box = new RectF();
         targetBox = new RectF();
+        paint.setAntiAlias(true);
     }
 
     @Override
@@ -63,7 +65,7 @@ public class BirdDown extends Actor {
         Bitmap curBitmap = frames.get(curFrameIndex);
         //绘制
         canvas.save();
-        canvas.drawBitmap(curBitmap, matrix, new Paint());
+        canvas.drawBitmap(curBitmap, matrix, paint);
         canvas.restore();
     }
 }

@@ -28,6 +28,7 @@ public class SunShine extends Actor {
         super(context);
         box = new RectF();
         targetBox = new RectF();
+        paint.setAntiAlias(true);
     }
 
     @Override

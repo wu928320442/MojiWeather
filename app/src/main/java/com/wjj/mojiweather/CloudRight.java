@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
+import android.graphics.Paint;
 import android.graphics.RectF;
 import android.util.Log;
 
@@ -19,11 +20,13 @@ public class CloudRight extends Actor {
     Bitmap frame;
     RectF box;
     RectF targetBox;
+    Paint paint = new Paint();
 
     protected CloudRight(Context context) {
         super(context);
         box = new RectF();
         targetBox = new RectF();
+        paint.setAntiAlias(true);
     }
 
     @Override
@@ -51,6 +54,6 @@ public class CloudRight extends Actor {
             matrix.postTranslate(-targetBox.right, 0);
         }
         //绘制
-        canvas.drawBitmap(frame, matrix, null);
+        canvas.drawBitmap(frame, matrix, paint);
     }
 }
