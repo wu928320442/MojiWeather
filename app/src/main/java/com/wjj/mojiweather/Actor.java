@@ -5,7 +5,7 @@ import android.graphics.Canvas;
 import android.graphics.Matrix;
 
 /**
- * Created by wujiajun on 2015/2/16.
+ * Created by wujiajun
  * @author 928320442@qq.com
  */
 public abstract class Actor {

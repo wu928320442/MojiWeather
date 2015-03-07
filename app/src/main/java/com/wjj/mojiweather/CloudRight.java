@@ -9,7 +9,7 @@ import android.graphics.RectF;
 import android.util.Log;
 
 /**
- * Created by wujiajun on 2015/3/3.
+ * Created by wujiajun8
  * @author 928320442@qq.com
  */
 public class CloudRight extends Actor {

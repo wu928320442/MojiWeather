@@ -12,7 +12,7 @@ import android.util.Log;
 import android.view.SurfaceHolder;
 
 /**
- * Created by wujiajun on 2015/2/16.
+ * Created by wujiajun
  * @author 928320442@qq.com
  */
 public class RenderThread extends Thread {

@@ -7,7 +7,7 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
 /**
- * Created by wujiajun on 2015/2/16.
+ * Created by wujiajun
  * @author 928320442@qq.com
  */
 public class SceneSurfaceView extends SurfaceView implements SurfaceHolder.Callback {
@@ -23,6 +23,10 @@ public class SceneSurfaceView extends SurfaceView implements SurfaceHolder.Callb
         super(context, attrs);
         surfaceHolder = getHolder();
         surfaceHolder.addCallback(this);
+
+        setFocusable(true);
+        setFocusableInTouchMode(true);
+        this.setKeepScreenOn(true);
     }
 
     public SceneSurfaceView(Context context, AttributeSet attrs, int defStyleAttr) {
